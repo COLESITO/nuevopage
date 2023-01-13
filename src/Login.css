@@ -1,0 +1,82 @@
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/2.jpg);
+    color: white;
+    box-sizing: border-box;
+  }
+
+.matt{
+  background-image: url(img/5.png);
+  opacity: 0.8;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 90vh;
+  box-shadow: 23px 24px 19px -4px rgba(62, 175, 228, 0.8);
+  -webkit-box-shadow: 23px 24px 19px -4px rgba(29, 245, 234, 0.8);
+  -moz-box-shadow: 23px 24px 19px -4px rgba(80, 224, 250, 0.8);
+}
+
+  .login__container {
+    height: 390px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+  .login__textBox {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .login__btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .login__google {
+    background-color: rgba(0,0,0,0.8);    
+  }
+  .login div {
+    margin-top: 7px;
+  }
+.link{
+    color: white ;
+    float: right;    
+  }  
+
+.texto2
+{
+  color: white;
+  font-size: 20px;
+}
+.crearCuenta
+{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+.link3
+{
+text-decoration: none;
+color: white;
+} 
+

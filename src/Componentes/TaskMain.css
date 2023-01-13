@@ -1,0 +1,72 @@
+.Box-item{
+    
+    width: 500px;
+    height: 150px;
+    color:white;
+    background-color: #242526;
+    display: flex;
+    gap: 1px ; /* row-gap column gap */
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+
+}
+.image-user{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border-style: none;
+background-color: #fff;
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-image: url("../img/hombre.png");;
+}
+
+
+.input-form{
+width: 400px;
+height: 35px;
+color:aliceblue;
+text-indent:10px;
+
+
+font-size: 1.3em;
+background-color: #4b4b53;
+border-radius: 25px;
+border-style: none;
+}
+.input-form:hover{
+background-color: #595961;
+
+
+}
+.hr{
+width: 500px;
+size: 0.5px;
+background-color:#4b4b53;
+}
+.button{
+width: 160px;
+height: 50px;
+padding: 2px;
+justify-content: center;
+color:antiquewhite;
+font-size: 1em;
+background-color: #242526;
+border-style: none;
+border-radius: 15px;
+}
+.button:hover{
+background-color:#4b4b53;
+}
+.icono1{
+color: #2374e1;
+}
+.icono2{
+color: #43b661;
+}
+.icono3{
+color: #f7b928;
+}
